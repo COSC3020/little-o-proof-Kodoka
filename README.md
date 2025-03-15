@@ -26,5 +26,5 @@ $n\ge n_0$, it is true that $f(n) < c g(n)$
   
 By definition Big-O is:  
 $f(n)\in O(g(n)) \iff \exists c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$  
-Meaning there is at least one value of $c > 0$, there exists some point, $n_9$,  
-where, for all $n\ge n_0$, it is true that $f(n) < c g(n)$
+Meaning there is at least one value of $c > 0$, where there exists some point,  
+$n_0$, where, for all $n\ge n_0$, it is true that $f(n) < c g(n)$
