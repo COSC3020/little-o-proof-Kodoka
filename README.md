@@ -21,13 +21,13 @@ $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
 By definition Little-o is:  
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$  
-Meaning for all values of $c > 0$, there exists some point, $n_0$, where, for all  
+Meaning for all values of $c > 0$, there exists some value, $n_0$, where, for all  
 $n\ge n_0$, it is true that $f(n) < c g(n)$  
   
 By definition Big-O is:  
 $f(n)\in O(g(n)) \iff \exists c>0, \exists n_0, \forall n\ge n_0: f(n) \le c g(n)$  
-Meaning there is at least one value of $c > 0$, where there exists some point,  
-$n_0$, where, for all $n\ge n_0$, it is true that $f(n) < c g(n)$  
+Meaning there is at least one value of $c > 0$, where there exists some value,  
+$n_0$, where, for all $n\ge n_0$, it is true that $f(n) \le c g(n)$  
 
 Assume that:  
 $f(n)\in o(g(n))$,  
@@ -35,3 +35,5 @@ which means, by definition:
 $\forall c>0, \exists n_0 \in \mathbb{N}, \forall n\ge n_0: |f(n)| < c|g(n)|$  
 Let $c=1$, which guarantees there exists some $n_0 \in \mathbb{N}$ such that:  
 $\forall n\ge n_0: |f(n)| < 1\cdot |g(n)| \equiv \forall n\ge n_0: |f(n)| < |g(n)|$  
+As:
+$|f(n)| < |g(n)| \implies |f(n)| \le |g(n)|$
