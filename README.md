@@ -36,6 +36,6 @@ $\forall c>0, \exists n_0 \in \mathbb{N}, \forall n\ge n_0: |f(n)| < c|g(n)|$
 Let $c=1$, which guarantees there exists some $n_0 \in \mathbb{N}$ such that:  
 $\forall n\ge n_0: |f(n)| < 1\cdot |g(n)| \equiv \forall n\ge n_0: |f(n)| < |g(n)|$  
 As:  
-$|f(n)| < |g(n)| \implies |f(n)| \le |g(n)|$
-A value of $c=1$ of little-o satisfies the definition of big-O, thus:
+$|f(n)| < |g(n)| \implies |f(n)| \le |g(n)|$  
+A value of $c=1$ of little-o satisfies the definition of big-O, thus:  
 $f(n)\in o(g(n)) implies f(n)\in O(g(n))$
