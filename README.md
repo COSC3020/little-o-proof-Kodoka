@@ -39,3 +39,15 @@ As:
 $|f(n)| < |g(n)| \implies |f(n)| \le |g(n)|$  
 A value of $c=1$ of little-o satisfies the definition of big-O, thus:  
 $f(n)\in o(g(n)) \implies f(n)\in O(g(n))$
+
+# Sources
+
+For my definition of Big-O/general information:  
+https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/
+
+General information regarding asymptotic notation of Big/Little-O:  
+https://stackoverflow.com/questions/1364444/difference-between-big-o-and-little-o-notation
+
+# Plagirism Notice
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
