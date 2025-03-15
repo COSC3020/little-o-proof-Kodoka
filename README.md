@@ -32,6 +32,6 @@ $n_0$, where, for all $n\ge n_0$, it is true that $f(n) < c g(n)$
 Assume that:  
 $f(n)\in o(g(n))$,  
 which means, by definition:  
-$\forall c>0, \exists n_0 \in \mathbb{N}, \forall n\ge n_0: |f(n)| < c|g(n)|  
+$\forall c>0, \exists n_0 \in \mathbb{N}, \forall n\ge n_0: |f(n)| < c|g(n)|$  
 Let $c=1$, which guarantees there exists some $n_0 \in \mathbb{N}$ such that:  
-$\forall n\ge n_0: |f(n)| < 1\cdot c|g(n)| \equiv \forall n\ge n_0: |f(n)| < c|g(n)|  
+$\forall n\ge n_0: |f(n)| < 1\cdot c|g(n)| \equiv \forall n\ge n_0: |f(n)| < c|g(n)|$  
